@@ -39,6 +39,14 @@ h1 {
     font-weight: 600;
 }
 
+/* Subheading style */
+h3 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
 /* Paragraph styling */
 p {
     font-size: 1rem;
@@ -55,6 +63,15 @@ ul {
 li {
     font-size: 1rem;
     color: #444;
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
 }
 
 /* Button style */
@@ -84,21 +101,11 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
-    list-style-type: none;
-    font-size: 1rem;
-    color: #444;
-    position: relative;
-    padding-left: 4%;
-    /* Make space for the tick mark */
-}
-
-li::before {
-    content: '✓';
-    /* Unicode character for checkmark */
-    color: #008000;
-    /* Match the theme color */
-    position: absolute;
-    left: 0;
-    font-weight: bold;
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
 }
